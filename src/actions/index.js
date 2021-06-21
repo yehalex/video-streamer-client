@@ -1,4 +1,5 @@
 import streams from '../apis/streams';
+import createBrowserHistory from '../history';
 import { 
   SIGN_IN, 
   SIGN_OUT, 
@@ -28,6 +29,7 @@ export const createStream = (formValues) => async (dispatch, getState) => {
 
   dispatch({ type: CREATE_STREAM, payload: response.data })
   // redirect user back to streamlist after successfully creating a stream
+  createBrowserHistory.push('/');
 }
 
 export const fetchStreams = () => async dispatch => {
