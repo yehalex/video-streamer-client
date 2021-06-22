@@ -4,9 +4,9 @@ Frontend web application for a simple streaming site.
 
 ## functionality
 
-contains a home page that displays all streams created.
-OAuth login allows signed in users to create, edit, delete stream.
-http-flv as stream player.
+contains a home page that displays all streams created.  
+OAuth login allows signed in users to create, edit, delete stream.  
+http-flv as stream player.  
 
 ## Demo  
 
